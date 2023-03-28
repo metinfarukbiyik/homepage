@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    .desc {
+        padding: 1.5rem;
+        text-align: center;
+        p {
+            font-weight: 300;
+            font-size: 1.4rem;
+            color: var(--mbgray);
+            b a {
+              text-decoration: 2px underline;
+              color: var(--mbgray);
+              opacity: .7;
+              transition: .3s;
+              font-weight: 500;
+              &:hover {
+                opacity: 1;
+              }
+            }
+            a {
+              text-decoration: none;
+              color: var(--mbdark);
+              opacity: .7;
+              &:hover {
+                opacity: 1;
+              }
+            }
+        }
+    }
+}      
