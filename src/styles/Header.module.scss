@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1rem solid var(--mbdark);
+    nav {
+        height: 10rem;
+        display: flex;
+        padding: 0 2rem;
+        align-items: center;
+    }
+    li {
+        padding: 1rem 1rem;
+        border-radius: .5rem;
+        transition: .3s;
+        font-size: 1.4rem;
+        color: var(--mblight);
+        background-color: var(--mbdark);
+        &:hover {
+            opacity: .7;
+        }
+        svg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+    nav ul{
+        display: flex;
+        gap: 1rem;
+    }
+    a {
+        color: var(--mbdark);
+    }
+    .logo h3 {
+        margin-left: 1.5rem;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 2.2rem
+    }
+}
+
+.social {
+    #insta {
+        background-color: var(--insta);
+    }
+    #twitter {
+        background-color: var(--twitter);
+    }
+    #github {
+        background-color: var(--github);
+    }
+    ul {
+        position: relative;
+        justify-content: right;
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 2rem 0 0;
+    }
+    svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    a {
+        color: var(--mblight);
+        border-radius: .5rem;
+        transition: .3s;
+        &:hover {
+            opacity: .7;
+            border-radius: 9rem;
+        }
+    }
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+}

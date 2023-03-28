@@ -1,0 +1,56 @@
+.about {
+   margin: 30px auto;
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--mbdark);
+    }
+    p {
+      text-align: justify;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+  
+  .bar {
+    display: block;
+  }  
+  .progress {
+    max-width: 70rem;
+    height: auto;
+    border: 1px solid var(--mbdark);
+    font-size: 1.4rem;
+    margin: 1rem 0;
+      .progress-bar {
+        align-items: center;
+        height: 1rem;
+        display: flex;
+        padding: 1.5rem;
+        &.html{
+          color: var(--mblight);
+          background: var(--html);
+        }
+        &.css{
+          color: var(--mblight);
+          background: var(--css);
+        }
+        &.js{
+          color: var(--mblight);
+          background: var(--js);
+        }
+        &.ps {
+          color: var(--mblight);
+          background: var(--ps);
+        }
+        &.ai {
+          color: var(--mblight);
+          background: var(--ai);
+        }
+        &.react {
+          color: var(--mblight);
+          background: var(--mbdark);
+        }
+     }
+  }
