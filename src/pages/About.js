@@ -40,7 +40,6 @@ function About() {
 
     return (    
         <>
-        <div className="container">
             <div className="about">
                 <h2><b>Beceriler</b> / Skills</h2>
                 <p>Öğrendiğim ve kendimi geliştirmeye devam ettiğim yazılım dillerini ve grafik programlarını aşağıdaki gibi hemen hemen yakın olan değerler ile yüzdelendirdim. Yakın zamanda bu sayfaya öğrendiğim diğer dilleri de ekleyerek daha geniş bir portföy oluşturacağım.</p>
@@ -53,7 +52,6 @@ function About() {
                         </div>
                     )}
                 </div>
-            </div>
             </div>
         </>
     );

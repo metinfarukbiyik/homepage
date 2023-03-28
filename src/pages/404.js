@@ -1,6 +1,5 @@
 function page404() {
     return(
-        <div className="container">
             <div className="Not404">
                 <h3>
                     Aradığınız sayfa Bulunamadı!
@@ -10,7 +9,6 @@ function page404() {
                     Hatalı buluyorsanız <strong>´<a href="mailto:metin@biyik.dev">metin@biyik.dev</a>`</strong> adresine mail gönderebilirsiniz.
                 </h4>
             </div>
-        </div>
     );
 }
 
