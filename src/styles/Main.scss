@@ -5,20 +5,6 @@
     transition: .3s;
     flex: 1;
 } 
-img {
-    width: 20rem;
-    height: 20rem;
-    border: 3px solid var(--mbdark);
-    border-radius: .5rem;
-    display: flex;
-    transition: .3s;
-    filter: grayscale(1);
-    &:hover {
-        border: 3px solid var(--mbindigo);
-        filter: grayscale(0);
-        transform: scale(1.1);
-    }
-}
 
 .about {
     margin: 0 auto;
@@ -51,6 +37,29 @@ img {
             border-bottom: 3px dashed var(--mbred);
         }
     }
+}
+
+.profile {
+  width: 25rem;
+  height: 18rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: .5rem;
+ img {
+    width: 25rem;
+    border: 3px solid var(--mbdark);
+    border-radius: .5rem;
+    display: flex;
+    transition: .3s;
+    filter: grayscale(1);
+    &:hover {
+        border: 3px solid var(--mbindigo);
+        filter: grayscale(0);
+     }
+  }
 }
 
 @media screen and (min-width: 700px) {
