@@ -5,9 +5,9 @@ function Main(){
         <>
         <div className="main">
             <div className='about'>
-                <div className='myPhoto'>
-                    <img className='img' src={photo}  alt="Metin Bıyık" />   
-                </div>
+                   <div class="profile">
+                        <img className='img' src={photo}  alt="Metin Bıyık" />
+                   </div>
                 <p>22 Nisan 1999 Trabzon/Türkiye doğumluyum. ATA AÖF Bilgi Yönetimi öğrencisiyim. Front-End Dev. olma yolunda kendimi geliştirmek üzere adımlar atıyorum. <strong>HTML/CSS ve JS</strong> dersleri ile bilgimin üzerine yeni bilgiler katarak, kişisel web sayfamda uyguluyorum. Her gün farklı şeyler öğrenerek hem kendimi hem de bu sayfayı güncellemiş oluyorum.
                 </p>
             
