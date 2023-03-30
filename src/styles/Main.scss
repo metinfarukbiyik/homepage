@@ -41,8 +41,8 @@
 }
 
 .profile {
-  width: 25rem;
-  height: 18rem;
+  width: 15rem;
+  height: 15rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -55,7 +55,7 @@
         border: 3px solid var(--mbindigo);
     }
  img {
-    width: 25rem;
+    width: 15rem;
     border: 3px solid var(--mbdark);
     border-radius: .5rem;
     display: flex;
@@ -70,6 +70,12 @@
 @media screen and (min-width: 700px) {
     .about {
         max-width: 640px;
+    }
+    .profile {
+        width: 22rem;
+        height: 15rem
+            img {
+                width: 22rem;
     }
     
 }
