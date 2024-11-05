@@ -9,7 +9,7 @@ function Main(){
                         <img className='img' src={photo}  alt="Metin Bıyık" />
                    </div>
                 <p>
-                    Nisan 1999 Trabzon/Türkiye doğumluyum. ATA AÖF Bilgi Yönetimi öğrencisiyim.
+        Nisan 1999 Trabzon/Türkiye doğumluyum. ATA AÖF Bilgi Yönetimi öğrencisiyim.
         </br>
         2018 ile 2020 yılları arasında ALP Telekom firmasında Baz İstasyonu Teknisyeni olarak görev yaptım. Bu süre zarfında, telekomünikasyon altyapılarının kurulumu ve bakımı konularında önemli deneyimler kazandım. 
         </br>
